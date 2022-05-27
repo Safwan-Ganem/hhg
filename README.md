@@ -1,2 +1,2 @@
 # Inpay
-https://safwan-ganem.github.io/hhgf/
+https://safwan-ganem.github.io/hhg/
