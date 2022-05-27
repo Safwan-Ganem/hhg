@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inpay</title>
+</head>
+<body>
+<div class="container">
+
+
+    <div class="head">
+        <h1>Inpay</h1>
+    </div>
+    <!-- ============================================
+                amount part start
+    ================================================= -->
+
+    <div class="amount">Amount Payable</h2>
+
+        <h3>8682.00</h3>
+        
+    </div>
+
+
+    <div class="upi">
+        <h3>1.Copy receving the upi id</h3>
+    </div>
+
+ <!-- ============================================
+                amount part end
+    ================================================= -->
+
+
+
+
+
+
+
+
+
+    <input type="text" value="chattunaskar91@okhdfcbank" id="myInput" style="width: 93%;">
+    <button onclick="myFunction()" style="background-color: #1877f2; color: #fff;">Copy</button>
+
+    <script>
+    function myFunction() {
+    /* Get the text field */
+    var copyText = document.getElementById("myInput");
+
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+    /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.value);
+    
+    /* Alert the copied text */
+    alert("Copied the text: " + copyText.value);
+    }
+    </script>
+
+    <h5>Tip save the UPI,the change hour get new UPI every time</h5>
+
+
+
+
+
+
+					
+    
+    <div class="payment">
+        <h3>2.Choose upi app for payment</h3>
+        <img src="images/Screenshot_2.png" alt="payment">
+
+        <img src="images/Screenshot_3.png" alt="payment2">
+
+        <h6>Tip:If you can't open the app,go to the app yourself and transfer money.After copying the UPI id</h6>
+    </div>
+    <div class="ref">
+
+        <h3>3.Enter 12 Ref No.(UTR)</h3>
+
+        <input type="text" value="RefNo.Enter 12 Digit Number" id="myInput"  style="width: 93%;">
+
+    </div>
+    <div class="clr"></div>
+    
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>
